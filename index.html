@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+       <nav>
+         <ul>
+           <li><a href="#home">Home</a></li>
+           <li><a href="#about">About</a></li>
+           <li><a href="#work">Work</a></li>
+           <li><a href="#resume">Resume</a></li>
+           <li><a href="#contact">Contact</a></li>
+         </ul>
+        </nav>
+</header>        
+
+<main>
+    <section id="home">
+        <h1> Hi, im Roheem Lola</h1>
+        <p> Mass communication graduate</p>
+        <a href="#contact"></a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am writing whatever i want year</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>writing</li>
+            <li>content creation</li>
+            <li>communication</li>
+        </ul>
+    </section>
+
+    <section id="work">
+      <h2>My Work</h2>
+
+      <h3>Video</h3>
+      <video src="5 times.mp4" controls width="320"></video>
+
+      <h3>Audio</h3>
+      <audio src="Seyi_Vibez_-_God_Sent_CeeNaija.com_.mp3" controls></audio>
+
+      <h3>Projects</h3>
+      <table>
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>Project One</td>
+          <td>A short description of this project.</td>
+        </tr>
+        <tr>
+          <td>Project Two</td>
+          <td>A short description of this project.</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+
+      <h3>Education</h3>
+      <ul>
+        <li>Bachelor's degree in Mass Communication, Your University (Year)</li>
+      </ul>
+
+      <h3>Experience</h3>
+      <ul>
+        <li>Job or internship title, Company (Year to Year)</li>
+        <li>Another role, Company (Year to Year)</li>
+      </ul>
+
+      <h3>Skills</h3>
+      <ul>
+        <li>Writing</li>
+        <li>Content creation</li>
+        <li>Communication</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+
+      <form action="#" method="post">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="subject">Subject</label><br>
+        <select id="subject" name="subject">
+          <option value="general">General question</option>
+          <option value="work">Work opportunity</option>
+          <option value="feedback">Feedback</option>
+        </select><br><br>
+
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Your Name. All rights reserved.</p>
+    <p><a href="#home">Back to top</a></p>
+</footer>
+</body>
+</html>
