@@ -4,32 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header>
-       <nav>
-         <ul>
+<header class="site-header">
+       <nav class="navbar">
+         <ul class="nav-list">
            <li><a href="#home">Home</a></li>
            <li><a href="#about">About</a></li>
            <li><a href="#work">Work</a></li>
            <li><a href="#resume">Resume</a></li>
-           <li><a href="#contact">Contact</a></li>
+           <li><a href="#contact" class="btn">Contact</a></li>
          </ul>
         </nav>
 </header>        
 
 <main>
-    <section id="home">
-        <h1> Hi, im Roheem Lola</h1>
-        <p> Mass communication graduate</p>
+    <section id="home" class="home">
+        <h1> Hi, I'm Roheem Lola</h1>
+        <p> A Mass communication graduate</p>
         <a href="#contact"></a>
     </section>
 
-    <section id="about">
+    <section id="about" class="section">
         <h2>About Me</h2>
-        <p>I am writing whatever i want year</p>
+        <p>I am writing whatever i want here</p>
         <h3>Skills</h3>
         <ul>
             <li>writing</li>
@@ -38,7 +41,7 @@
         </ul>
     </section>
 
-    <section id="work">
+    <section id="work" class="section">
       <h2>My Work</h2>
 
       <h3>Video</h3>
@@ -48,7 +51,7 @@
       <audio src="Seyi_Vibez_-_God_Sent_CeeNaija.com_.mp3" controls></audio>
 
       <h3>Projects</h3>
-      <table>
+      <table class="projects">
         <tr>
           <th>Project</th>
           <th>Description</th>
@@ -64,7 +67,7 @@
       </table>
     </section>
 
-    <section id="resume">
+    <section id="resume" class="section">
       <h2>Resume</h2>
 
       <h3>Education</h3>
@@ -86,10 +89,10 @@
       </ul>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="section">
       <h2>Contact Me</h2>
 
-      <form action="#" method="post">
+      <form action="#" method="post" class="contact-form">
         <label for="name">Name</label><br>
         <input type="text" id="name" name="name" required><br><br>
 
@@ -111,7 +114,7 @@
     </section>
 </main>
 
-<footer>
+<footer class="site-footer">
     <p>&copy; 2026 Roheem Lola. All rights reserved.</p>
     <p><a href="#home">Back to top</a></p>
 </footer>
